@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Krna toh prega bro aaya hai toh</h1>
+    <script>
+        function whosPaying(names) {
+
+
+            var numberOfPeoples = names.length;
+            var randomPersonPosition = Math.floor(Math.random() * numberOfPeoples);
+            var randomPeople = names[randomPersonPosition];
+
+            alert(randomPeople + " is going to pay bills today!");
+        }
+        var names = ["Vivek", "Summit", "Anshu", "Yuvraj", "Abhishek"];
+        whosPaying(names);
+    </script>
+</body>
+
+</html>
